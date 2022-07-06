@@ -12,9 +12,9 @@ function correct(){
           question5 = document.querySelector(".question-5");
      let scoreAns = document.getElementById("score");
     let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
-let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>:
+let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
-    correctAns.style.backgroundColor = "lightgreen, tickIconTag":
+    correctAns.style.backgroundColor = "lightgreen, tickIconTag";
     correctAns.style.icon = "fa-fa-check";
     wrongAns.style.backgroundColor = "red";
     wrongAns1.style.backgroundColor = "red";
@@ -40,8 +40,7 @@ function wrong(){
     question5 = document.querySelector(".question-5");
 let scoreAns = document.getElementById("score");
     let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
-let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>:
-
+let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 correctAns.style.backgroundColor = "lightgreen, tickIconTag";
 correctAns.style.icon = "fa-fa-check";
 wrongAns.style.backgroundColor = "red";
