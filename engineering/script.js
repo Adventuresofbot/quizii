@@ -13,6 +13,7 @@ function correct(){
      let scoreAns = document.getElementById("score");
 
     correctAns.style.backgroundColor = "greenyellow";
+    correctAns.style.icon = "fa-fa-check";
     wrongAns.style.backgroundColor = "red";
     wrongAns1.style.backgroundColor = "red";
     wrongAns2.style.backgroundColor = "red";
@@ -38,6 +39,7 @@ function wrong(){
 let scoreAns = document.getElementById("score");
 
 correctAns.style.backgroundColor = "greenyellow";
+correctAns.style.icon = "fa-fa-check";
 wrongAns.style.backgroundColor = "red";
 wrongAns1.style.backgroundColor = "red";
 wrongAns2.style.backgroundColor = "red";
