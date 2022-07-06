@@ -11,7 +11,6 @@ function correct(){
           question4 = document.querySelector(".question-4"),
           question5 = document.querySelector(".question-5");
      let scoreAns = document.getElementById("score");
-    let tickIconTag = "<div class="icon tick"><i class="fas fa-check"></i></div>";
     correctAns.style.backgroundColor = "lightgreen";
     correctAns.style.icon = "fa-fa-check";
     wrongAns.style.backgroundColor = "red";
@@ -37,7 +36,6 @@ function wrong(){
     question4 = document.querySelector(".question-4"),
     question5 = document.querySelector(".question-5");
 let scoreAns = document.getElementById("score");
-let tickIconTag = "<div class="icon tick"><i class="fas fa-check"></i></div>";
     
 correctAns.style.backgroundColor = "lightgreen";
 correctAns.style.icon = "fa-fa-check";
