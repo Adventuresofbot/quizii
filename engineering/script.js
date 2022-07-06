@@ -39,6 +39,8 @@ function wrong(){
     question4 = document.querySelector(".question-4"),
     question5 = document.querySelector(".question-5");
 let scoreAns = document.getElementById("score");
+    let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
+let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>
 
 correctAns.style.backgroundColor = "tickIconTag";
 correctAns.style.icon = "fa-fa-check";
