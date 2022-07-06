@@ -12,7 +12,7 @@ function correct(){
           question5 = document.querySelector(".question-5");
      let scoreAns = document.getElementById("score");
 
-    correctAns.style.backgroundColor = "greenyellow";
+    correctAns.style.backgroundColor = "fa-fa-check";
     correctAns.style.icon = "fa-fa-check";
     wrongAns.style.backgroundColor = "red";
     wrongAns1.style.backgroundColor = "red";
@@ -38,7 +38,7 @@ function wrong(){
     question5 = document.querySelector(".question-5");
 let scoreAns = document.getElementById("score");
 
-correctAns.style.backgroundColor = "greenyellow";
+correctAns.style.backgroundColor = "fa-fa-check";
 correctAns.style.icon = "fa-fa-check";
 wrongAns.style.backgroundColor = "red";
 wrongAns1.style.backgroundColor = "red";
