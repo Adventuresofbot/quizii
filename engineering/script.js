@@ -15,9 +15,9 @@ function correct(){
    let tickIconTag = "<div class="icon cross"><i class="fas fa-times"></i></div>";
     correctAns.style.backgroundColor = "lightgreen, tickIconTag";
     correctAns.style.icon = "fa-fa-check";
-    wrongAns.style.backgroundColor = "red, crossIconTag";
-    wrongAns1.style.backgroundColor = "red, crossIconTag";
-    wrongAns2.style.backgroundColor = "red, crossIconTag";
+    wrongAns.style.backgroundColor = "red";
+    wrongAns1.style.backgroundColor = "red";
+    wrongAns2.style.backgroundColor = "red";
 
     
     setTimeout(() => {
@@ -43,9 +43,9 @@ let crossIconTag = "<div class="icon cross"><i class="fas fa-times"></i></div>";
     
 correctAns.style.backgroundColor = "lightgreen, tickIconTag";
 correctAns.style.icon = "fa-fa-check";
-wrongAns.style.backgroundColor = "red, crossIconTag";
-wrongAns1.style.backgroundColor = "red, crossIconTag";
-wrongAns2.style.backgroundColor = "red, crossIconTag";
+wrongAns.style.backgroundColor = "red";
+wrongAns1.style.backgroundColor = "red";
+wrongAns2.style.backgroundColor = "red";
 
 setTimeout(() => {
     question1.style.display = "none";
