@@ -11,8 +11,9 @@ function correct(){
           question4 = document.querySelector(".question-4"),
           question5 = document.querySelector(".question-5");
      let scoreAns = document.getElementById("score");
-    correctAns.style.backgroundColor = "lightgreen";
-    correctAns.style.color = "#bbb"
+    correctAns.style.backgroundColor = "#d4edda";
+    correctAns.style.color = "#155724"
+    correctAns.style.border = "1px solid #c3e6cb"
     correctAns.style.icon = "fa-fa-check";
     wrongAns.style.backgroundColor = "red";
     wrongAns1.style.backgroundColor = "red";
