@@ -18,7 +18,9 @@ function correct(){
     wrongAns.style.backgroundColor = "red";
     wrongAns1.style.backgroundColor = "red";
     wrongAns2.style.backgroundColor = "red";
-
+   
+    const icon = document.querySelector("i");
+    icon.style.display = "flex";
     
     setTimeout(() => {
         question1.style.display = "none";
