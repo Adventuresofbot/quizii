@@ -121,7 +121,7 @@ body {
 .question-panel .q-area h2 {
     font-size: 22px;
 }
-            next_btn{
+           footer next_btn{
     height: 40px;
     padding: 0 13px;
     font-size: 18px;
@@ -140,7 +140,7 @@ body {
     transition: all 0.3s ease;
 }
 
-next_btn:hover{
+footer next_btn:hover{
     background: #0263ca;
 }
 
