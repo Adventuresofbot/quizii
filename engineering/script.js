@@ -21,11 +21,15 @@ function correct(){
    
     const icon = document.querySelector("i");
     icon.style.display = "flex";
+    const next_btn = document.querySelector("footer .next_btn");
     
     setTimeout(() => {
+        next_btn.style.display = "block";
+    },1000)
+    next_btn.onclick = ()=>{
         question1.style.display = "none";
         question2.style.display = "block";
-    },1000)
+        }
 
 }
 
