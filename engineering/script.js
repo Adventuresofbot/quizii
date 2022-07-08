@@ -26,7 +26,8 @@ function correct(){
     setTimeout(() => {
         next_btn.style.display = "block";
     },1000)
-    next_btn.onclick = ()=>{
+    
+    next_btn(() => {
         question1.style.display = "none";
         question2.style.display = "block";
         }
