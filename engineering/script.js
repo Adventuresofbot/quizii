@@ -27,7 +27,7 @@ function correct(){
         next_btn.style.display = "block";
     },1000)
     
-    next_btn(() => {
+    next_btn.onclick = ()=>{
         question1.style.display = "none";
         question2.style.display = "block";
         }
