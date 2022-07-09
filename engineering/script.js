@@ -24,7 +24,6 @@ function correct(){
     const next_btn = document.getElementById(".next_btn");
     
     setTimeout(() => {
-        next_btn.style.display = "block";
     },1000)
     
     next_btn.onclick = ()=>{
