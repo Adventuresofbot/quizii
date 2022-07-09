@@ -21,7 +21,7 @@ function correct(){
    
     const icon = document.querySelector("i");
     icon.style.display = "flex";
-    const next_btn = document.getElementById("footer .next_btn");
+    const next_btn = document.getElementById("next_btn");
     
     setTimeout(() => {
         next_btn.style.display = "block";
